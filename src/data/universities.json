@@ -1,0 +1,422 @@
+[
+{
+  "id": 1,
+  "name": "Peking University",
+  "city": "Beijing",
+  "province": "Beijing",
+  "ranking": 1,
+  "logo": "🏛️",
+  "programs": ["Bachelor", "Master", "PhD"],
+  "minGPA": 3.5,
+  "gpaScale": 4.0,
+  "languageRequirements": {
+    "chinese": { "hsk": 5, "label": "HSK 5+" },
+    "english": { "ielts": 6.5, "toefl": 90, "label": "IELTS 6.5 / TOEFL 90" }
+  },
+  "ageLimit": { "bachelor": 25, "master": 35, "phd": 45 },
+  "tuitionUSD": { "bachelor": 4200, "master": 4800, "phd": 5000 },
+  "scholarshipAvailable": true,
+  "description": "China's top-ranked university, known for humanities, sciences, and law.",
+  "website": "https://www.pku.edu.cn",
+  "tags": ["Top 10", "Scholarship", "Research"]
+},
+{
+  "id": 2,
+  "name": "Tsinghua University",
+  "city": "Beijing",
+  "province": "Beijing",
+  "ranking": 2,
+  "logo": "🔬",
+  "programs": ["Bachelor", "Master", "PhD"],
+  "minGPA": 3.5,
+  "gpaScale": 4.0,
+  "languageRequirements": {
+    "chinese": { "hsk": 5, "label": "HSK 5+" },
+    "english": { "ielts": 6.5, "toefl": 90, "label": "IELTS 6.5 / TOEFL 90" }
+  },
+  "ageLimit": { "bachelor": 25, "master": 35, "phd": 45 },
+  "tuitionUSD": { "bachelor": 4200, "master": 4800, "phd": 5000 },
+  "scholarshipAvailable": true,
+  "description": "World-renowned for engineering, technology, and architecture.",
+  "website": "https://www.tsinghua.edu.cn",
+  "tags": ["Top 10", "Engineering", "Scholarship"]
+},
+{
+  "id": 3,
+  "name": "Fudan University",
+  "city": "Shanghai",
+  "province": "Shanghai",
+  "ranking": 3,
+  "logo": "🌆",
+  "programs": ["Bachelor", "Master", "PhD"],
+  "minGPA": 3.2,
+  "gpaScale": 4.0,
+  "languageRequirements": {
+    "chinese": { "hsk": 4, "label": "HSK 4+" },
+    "english": { "ielts": 6.0, "toefl": 80, "label": "IELTS 6.0 / TOEFL 80" }
+  },
+  "ageLimit": { "bachelor": 25, "master": 35, "phd": 45 },
+  "tuitionUSD": { "bachelor": 3800, "master": 4500, "phd": 4800 },
+  "scholarshipAvailable": true,
+  "description": "Premier research university in Shanghai with strong international programs.",
+  "website": "https://www.fudan.edu.cn",
+  "tags": ["Top 10", "Shanghai", "Scholarship"]
+},
+{
+  "id": 4,
+  "name": "Shanghai Jiao Tong University",
+  "city": "Shanghai",
+  "province": "Shanghai",
+  "ranking": 4,
+  "logo": "⚙️",
+  "programs": ["Bachelor", "Master", "PhD"],
+  "minGPA": 3.2,
+  "gpaScale": 4.0,
+  "languageRequirements": {
+    "chinese": { "hsk": 4, "label": "HSK 4+" },
+    "english": { "ielts": 6.0, "toefl": 80, "label": "IELTS 6.0 / TOEFL 80" }
+  },
+  "ageLimit": { "bachelor": 25, "master": 35, "phd": 45 },
+  "tuitionUSD": { "bachelor": 4000, "master": 4600, "phd": 4900 },
+  "scholarshipAvailable": true,
+  "description": "Top engineering and medical university in China.",
+  "website": "https://www.sjtu.edu.cn",
+  "tags": ["Top 10", "Engineering", "Medicine"]
+},
+{
+  "id": 5,
+  "name": "Zhejiang University",
+  "city": "Hangzhou",
+  "province": "Zhejiang",
+  "ranking": 5,
+  "logo": "🌿",
+  "programs": ["Bachelor", "Master", "PhD"],
+  "minGPA": 3.0,
+  "gpaScale": 4.0,
+  "languageRequirements": {
+    "chinese": { "hsk": 4, "label": "HSK 4+" },
+    "english": { "ielts": 6.0, "toefl": 79, "label": "IELTS 6.0 / TOEFL 79" }
+  },
+  "ageLimit": { "bachelor": 25, "master": 35, "phd": 45 },
+  "tuitionUSD": { "bachelor": 3500, "master": 4200, "phd": 4500 },
+  "scholarshipAvailable": true,
+  "description": "Comprehensive research university near Alibaba HQ in Hangzhou.",
+  "website": "https://www.zju.edu.cn",
+  "tags": ["Top 10", "Tech Hub", "Scholarship"]
+},
+{
+  "id": 6,
+  "name": "Nanjing University",
+  "city": "Nanjing",
+  "province": "Jiangsu",
+  "ranking": 6,
+  "logo": "📚",
+  "programs": ["Bachelor", "Master", "PhD"],
+  "minGPA": 3.0,
+  "gpaScale": 4.0,
+  "languageRequirements": {
+    "chinese": { "hsk": 4, "label": "HSK 4+" },
+    "english": { "ielts": 5.5, "toefl": 75, "label": "IELTS 5.5 / TOEFL 75" }
+  },
+  "ageLimit": { "bachelor": 25, "master": 35, "phd": 45 },
+  "tuitionUSD": { "bachelor": 3200, "master": 3800, "phd": 4200 },
+  "scholarshipAvailable": true,
+  "description": "Historic university with strong programs in sciences and humanities.",
+  "website": "https://www.nju.edu.cn",
+  "tags": ["Top 20", "History", "Sciences"]
+},
+{
+  "id": 7,
+  "name": "Wuhan University",
+  "city": "Wuhan",
+  "province": "Hubei",
+  "ranking": 7,
+  "logo": "🌸",
+  "programs": ["Bachelor", "Master", "PhD"],
+  "minGPA": 2.8,
+  "gpaScale": 4.0,
+  "languageRequirements": {
+    "chinese": { "hsk": 3, "label": "HSK 3+" },
+    "english": { "ielts": 5.5, "toefl": 72, "label": "IELTS 5.5 / TOEFL 72" }
+  },
+  "ageLimit": { "bachelor": 25, "master": 35, "phd": 45 },
+  "tuitionUSD": { "bachelor": 2800, "master": 3500, "phd": 3800 },
+  "scholarshipAvailable": true,
+  "description": "Beautiful campus university known for cherry blossoms and strong academics.",
+  "website": "https://www.whu.edu.cn",
+  "tags": ["Top 20", "Scholarship", "Beautiful Campus"]
+},
+{
+  "id": 8,
+  "name": "Sun Yat-sen University",
+  "city": "Guangzhou",
+  "province": "Guangdong",
+  "ranking": 8,
+  "logo": "☀️",
+  "programs": ["Bachelor", "Master", "PhD"],
+  "minGPA": 2.8,
+  "gpaScale": 4.0,
+  "languageRequirements": {
+    "chinese": { "hsk": 3, "label": "HSK 3+" },
+    "english": { "ielts": 5.5, "toefl": 72, "label": "IELTS 5.5 / TOEFL 72" }
+  },
+  "ageLimit": { "bachelor": 25, "master": 35, "phd": 45 },
+  "tuitionUSD": { "bachelor": 3000, "master": 3600, "phd": 4000 },
+  "scholarshipAvailable": true,
+  "description": "Leading university in South China, strong in medicine and business.",
+  "website": "https://www.sysu.edu.cn",
+  "tags": ["Top 20", "South China", "Medicine"]
+},
+{
+  "id": 9,
+  "name": "Tongji University",
+  "city": "Shanghai",
+  "province": "Shanghai",
+  "ranking": 9,
+  "logo": "🏗️",
+  "programs": ["Bachelor", "Master", "PhD"],
+  "minGPA": 2.7,
+  "gpaScale": 4.0,
+  "languageRequirements": {
+    "chinese": { "hsk": 3, "label": "HSK 3+" },
+    "english": { "ielts": 5.5, "toefl": 70, "label": "IELTS 5.5 / TOEFL 70" }
+  },
+  "ageLimit": { "bachelor": 25, "master": 35, "phd": 45 },
+  "tuitionUSD": { "bachelor": 3200, "master": 3800, "phd": 4200 },
+  "scholarshipAvailable": false,
+  "description": "Top architecture and civil engineering university in Shanghai.",
+  "website": "https://www.tongji.edu.cn",
+  "tags": ["Architecture", "Engineering", "Shanghai"]
+},
+{
+  "id": 10,
+  "name": "Beijing Normal University",
+  "city": "Beijing",
+  "province": "Beijing",
+  "ranking": 10,
+  "logo": "🎓",
+  "programs": ["Bachelor", "Master", "PhD"],
+  "minGPA": 2.7,
+  "gpaScale": 4.0,
+  "languageRequirements": {
+    "chinese": { "hsk": 3, "label": "HSK 3+" },
+    "english": { "ielts": 5.5, "toefl": 70, "label": "IELTS 5.5 / TOEFL 70" }
+  },
+  "ageLimit": { "bachelor": 25, "master": 35, "phd": 45 },
+  "tuitionUSD": { "bachelor": 2800, "master": 3400, "phd": 3800 },
+  "scholarshipAvailable": true,
+  "description": "Premier education and psychology university in Beijing.",
+  "website": "https://www.bnu.edu.cn",
+  "tags": ["Education", "Psychology", "Beijing"]
+},
+{
+  "id": 11,
+  "name": "Renmin University of China",
+  "city": "Beijing",
+  "province": "Beijing",
+  "ranking": 11,
+  "logo": "⚖️",
+  "programs": ["Bachelor", "Master", "PhD"],
+  "minGPA": 3.0,
+  "gpaScale": 4.0,
+  "languageRequirements": {
+    "chinese": { "hsk": 4, "label": "HSK 4+" },
+    "english": { "ielts": 6.0, "toefl": 78, "label": "IELTS 6.0 / TOEFL 78" }
+  },
+  "ageLimit": { "bachelor": 25, "master": 35, "phd": 45 },
+  "tuitionUSD": { "bachelor": 3500, "master": 4000, "phd": 4500 },
+  "scholarshipAvailable": true,
+  "description": "Top university for economics, law, and social sciences.",
+  "website": "https://www.ruc.edu.cn",
+  "tags": ["Law", "Economics", "Social Sciences"]
+},
+{
+  "id": 12,
+  "name": "Xiamen University",
+  "city": "Xiamen",
+  "province": "Fujian",
+  "ranking": 12,
+  "logo": "🌊",
+  "programs": ["Bachelor", "Master", "PhD"],
+  "minGPA": 2.5,
+  "gpaScale": 4.0,
+  "languageRequirements": {
+    "chinese": { "hsk": 3, "label": "HSK 3+" },
+    "english": { "ielts": 5.0, "toefl": 65, "label": "IELTS 5.0 / TOEFL 65" }
+  },
+  "ageLimit": { "bachelor": 25, "master": 35, "phd": 45 },
+  "tuitionUSD": { "bachelor": 2500, "master": 3200, "phd": 3600 },
+  "scholarshipAvailable": true,
+  "description": "Beautiful coastal university with strong economics and finance programs.",
+  "website": "https://www.xmu.edu.cn",
+  "tags": ["Coastal", "Economics", "Scholarship"]
+},
+{
+  "id": 13,
+  "name": "Sichuan University",
+  "city": "Chengdu",
+  "province": "Sichuan",
+  "ranking": 13,
+  "logo": "🐼",
+  "programs": ["Bachelor", "Master", "PhD"],
+  "minGPA": 2.5,
+  "gpaScale": 4.0,
+  "languageRequirements": {
+    "chinese": { "hsk": 3, "label": "HSK 3+" },
+    "english": { "ielts": 5.0, "toefl": 65, "label": "IELTS 5.0 / TOEFL 65" }
+  },
+  "ageLimit": { "bachelor": 25, "master": 35, "phd": 45 },
+  "tuitionUSD": { "bachelor": 2200, "master": 2800, "phd": 3200 },
+  "scholarshipAvailable": true,
+  "description": "Comprehensive university in Chengdu, gateway to Southwest China.",
+  "website": "https://www.scu.edu.cn",
+  "tags": ["Southwest China", "Affordable", "Scholarship"]
+},
+{
+  "id": 14,
+  "name": "Harbin Institute of Technology",
+  "city": "Harbin",
+  "province": "Heilongjiang",
+  "ranking": 14,
+  "logo": "🚀",
+  "programs": ["Bachelor", "Master", "PhD"],
+  "minGPA": 3.0,
+  "gpaScale": 4.0,
+  "languageRequirements": {
+    "chinese": { "hsk": 4, "label": "HSK 4+" },
+    "english": { "ielts": 6.0, "toefl": 78, "label": "IELTS 6.0 / TOEFL 78" }
+  },
+  "ageLimit": { "bachelor": 25, "master": 35, "phd": 45 },
+  "tuitionUSD": { "bachelor": 2800, "master": 3400, "phd": 3800 },
+  "scholarshipAvailable": true,
+  "description": "Elite engineering university with strong aerospace and robotics programs.",
+  "website": "https://www.hit.edu.cn",
+  "tags": ["Engineering", "Aerospace", "Robotics"]
+},
+{
+  "id": 15,
+  "name": "Lanzhou University",
+  "city": "Lanzhou",
+  "province": "Gansu",
+  "ranking": 15,
+  "logo": "🏔️",
+  "programs": ["Bachelor", "Master", "PhD"],
+  "minGPA": 2.0,
+  "gpaScale": 4.0,
+  "languageRequirements": {
+    "chinese": { "hsk": 2, "label": "HSK 2+" },
+    "english": { "ielts": 4.5, "toefl": 55, "label": "IELTS 4.5 / TOEFL 55" }
+  },
+  "ageLimit": { "bachelor": 30, "master": 40, "phd": 50 },
+  "tuitionUSD": { "bachelor": 1800, "master": 2400, "phd": 2800 },
+  "scholarshipAvailable": true,
+  "description": "Affordable university in Northwest China with generous scholarships.",
+  "website": "https://www.lzu.edu.cn",
+  "tags": ["Affordable", "Northwest China", "Scholarship"]
+},
+{
+  "id": 16,
+  "name": "Yunnan University",
+  "city": "Kunming",
+  "province": "Yunnan",
+  "ranking": 16,
+  "logo": "🌺",
+  "programs": ["Bachelor", "Master", "PhD"],
+  "minGPA": 2.0,
+  "gpaScale": 4.0,
+  "languageRequirements": {
+    "chinese": { "hsk": 2, "label": "HSK 2+" },
+    "english": { "ielts": 4.5, "toefl": 55, "label": "IELTS 4.5 / TOEFL 55" }
+  },
+  "ageLimit": { "bachelor": 30, "master": 40, "phd": 50 },
+  "tuitionUSD": { "bachelor": 1600, "master": 2200, "phd": 2600 },
+  "scholarshipAvailable": true,
+  "description": "Gateway to Southeast Asia, diverse campus with affordable tuition.",
+  "website": "https://www.ynu.edu.cn",
+  "tags": ["Affordable", "Southeast Asia Gateway", "Diverse"]
+},
+{
+  "id": 17,
+  "name": "Guangzhou University",
+  "city": "Guangzhou",
+  "province": "Guangdong",
+  "ranking": 17,
+  "logo": "🌴",
+  "programs": ["Bachelor", "Master"],
+  "minGPA": 2.0,
+  "gpaScale": 4.0,
+  "languageRequirements": {
+    "chinese": { "hsk": 2, "label": "HSK 2+" },
+    "english": { "ielts": 4.5, "toefl": 55, "label": "IELTS 4.5 / TOEFL 55" }
+  },
+  "ageLimit": { "bachelor": 30, "master": 40, "phd": 50 },
+  "tuitionUSD": { "bachelor": 2000, "master": 2600, "phd": 0 },
+  "scholarshipAvailable": false,
+  "description": "Modern university in Guangzhou with strong business and arts programs.",
+  "website": "https://www.gzhu.edu.cn",
+  "tags": ["Business", "Arts", "South China"]
+},
+{
+  "id": 18,
+  "name": "Chongqing University",
+  "city": "Chongqing",
+  "province": "Chongqing",
+  "ranking": 18,
+  "logo": "🌉",
+  "programs": ["Bachelor", "Master", "PhD"],
+  "minGPA": 2.3,
+  "gpaScale": 4.0,
+  "languageRequirements": {
+    "chinese": { "hsk": 3, "label": "HSK 3+" },
+    "english": { "ielts": 5.0, "toefl": 60, "label": "IELTS 5.0 / TOEFL 60" }
+  },
+  "ageLimit": { "bachelor": 25, "master": 35, "phd": 45 },
+  "tuitionUSD": { "bachelor": 2200, "master": 2800, "phd": 3200 },
+  "scholarshipAvailable": true,
+  "description": "Major university in the mountain city of Chongqing, strong in engineering.",
+  "website": "https://www.cqu.edu.cn",
+  "tags": ["Engineering", "Affordable", "Scholarship"]
+},
+{
+  "id": 19,
+  "name": "Dalian University of Technology",
+  "city": "Dalian",
+  "province": "Liaoning",
+  "ranking": 19,
+  "logo": "⚓",
+  "programs": ["Bachelor", "Master", "PhD"],
+  "minGPA": 2.7,
+  "gpaScale": 4.0,
+  "languageRequirements": {
+    "chinese": { "hsk": 3, "label": "HSK 3+" },
+    "english": { "ielts": 5.5, "toefl": 70, "label": "IELTS 5.5 / TOEFL 70" }
+  },
+  "ageLimit": { "bachelor": 25, "master": 35, "phd": 45 },
+  "tuitionUSD": { "bachelor": 2600, "master": 3200, "phd": 3600 },
+  "scholarshipAvailable": true,
+  "description": "Coastal engineering university in Dalian with strong industry connections.",
+  "website": "https://www.dlut.edu.cn",
+  "tags": ["Engineering", "Coastal", "Industry"]
+},
+{
+  "id": 20,
+  "name": "Hunan University",
+  "city": "Changsha",
+  "province": "Hunan",
+  "ranking": 20,
+  "logo": "🏺",
+  "programs": ["Bachelor", "Master", "PhD"],
+  "minGPA": 2.3,
+  "gpaScale": 4.0,
+  "languageRequirements": {
+    "chinese": { "hsk": 3, "label": "HSK 3+" },
+    "english": { "ielts": 5.0, "toefl": 60, "label": "IELTS 5.0 / TOEFL 60" }
+  },
+  "ageLimit": { "bachelor": 25, "master": 35, "phd": 45 },
+  "tuitionUSD": { "bachelor": 2000, "master": 2600, "phd": 3000 },
+  "scholarshipAvailable": true,
+  "description": "Historic university in Changsha with strong engineering and design programs.",
+  "website": "https://www.hnu.edu.cn",
+  "tags": ["Design", "Engineering", "Central China"]
+}
+]
